@@ -1,5 +1,15 @@
-import React from "react";
+import React  from 'react';
+import './App.css';
+import NavBar from './components/nav-bar/index.js';
+import 'h8k-components';
+const title = "Navigation Bar";
 
-export default () => {
-  return <h1>React app</h1>
-};
+function App() {
+  return (
+    <div>
+      <NavBar/>
+    </div>
+  );
+}
+
+export default App;
