@@ -9,17 +9,29 @@
       "@babel/preset-react"
     ]
   },
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": ["./test-setup.js"]
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot --port 3000",
     "build": "webpack --mode production",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --collect-coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "babel-jest": "^26.6.3",
     "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
     "material-table": "^1.69.2",
     "npm-watch": "^0.9.0",
     "react": "^16.13.1",

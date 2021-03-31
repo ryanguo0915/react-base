@@ -5,7 +5,7 @@ export default function Earthquake(props) {
     const earthquake = props.features.find(feature => feature.id === id) || {};
     const {title, mag, time, status, tsunami, type} = earthquake.properties;
   return (
-    <div className="earthquake-wrapper">
+    <div className="earthquake-wrapper" id="earthquake-detail">
         <h3>{title}</h3>
         <table>
             <tbody>

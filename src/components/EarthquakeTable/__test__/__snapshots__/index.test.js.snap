@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should have 1 matched perperty and render tables 1`] = `
+Array [
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Title
+        </th>
+        <th>
+          Magnitute
+        </th>
+        <th>
+          Time
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <Link
+            to="/earthquake/1"
+          />
+        </td>
+        <td>
+          mag
+        </td>
+        <td>
+          Invalid Date
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`MyComponent should render my component 1`] = `
+Array [
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Title
+        </th>
+        <th>
+          Magnitute
+        </th>
+        <th>
+          Time
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <Link
+            to="/earthquake/1"
+          />
+        </td>
+        <td>
+          mag
+        </td>
+        <td>
+          Invalid Date
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
