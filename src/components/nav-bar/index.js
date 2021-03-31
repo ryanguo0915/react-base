@@ -1,28 +1,20 @@
 import React  from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 
-const BAR_PAGES = ['Home', 'News', 'Contact', 'About'];
-
-function BarLinks ({updatePage}) {
+export default function NavBar({site: siteData, firstName}) {
+  const {title , heroImage, logoImage} = siteData;
   return (
-    BAR_PAGES.map(page =><a key={page} onClick={() => updatePage(page)}>{page}</a> )
-  )
-}
-
-export default function NavBar() {
-  const [page, updatePage] = React.useState(BAR_PAGES[0]);
-  return (
-    <div className="layout-column justify-content-center align-items-center">
-      <div className="layout-row justify-content-around align-items-center mt-20 links"
-           data-testid="navigation-tabs">
-          <BarLinks updatePage={updatePage}/>
-      </div>
-
-      <div className="card w-20 ma-0">
-        <section className="card-text" data-testid="tab-content">
-          <span>{`${page.toUpperCase()} PAGE`}</span>
-        </section>
-      </div>
+    <div className='navbar'>
+      <Link to='/' className="navbar__avatar"><img src={logoImage} alt="fireSpot" height={30} width={30}/></Link>
+      <h2 className="navbar__title">
+        {title}
+      </h2>
+      <span className="navbar__profile">
+        <Link to='/profile'>
+          Welcome {firstName}
+        </Link>
+      </span>
     </div>
   );
 }

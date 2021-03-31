@@ -1,32 +1,17 @@
-.card {
-	transition: height 0.5s ease-in-out;
-	will-change: height;
+.navbar {
+  background-color: #ededed;
+  display: flex;
+  justify-content: space-between;
 }
-  
-.text {
-	padding: 10px;
-	background-color: white;
+.navbar__avatar {
+  padding: 10px;
 }
-  
-
-.links {
-	padding: 10px 0;
-	background-color: lightgrey;
-	cursor: pointer;
-	height: 1.5em;
+.navbar__title {
+  color: #777777;
+  margin: 10px;
 }
 
-.links a {
-	color: var(--heading-color);
-	min-width: 80px;
-	min-height: 44px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-.links a:focus,
-.links a:hover {
-	background-color: #eeeeee;
+.navbar__profile {
+  margin: 10px;
+  padding-top: 5px;
 }
