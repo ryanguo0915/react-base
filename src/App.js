@@ -9,7 +9,7 @@ import { StaticData } from './constant/data';
 import Home from './components/Home';
 import Profile from './components/Profile';
 import Earthquake from './components/Earthquake'
-import "./App.css";
+import "./style/global.css";
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).

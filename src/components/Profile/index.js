@@ -28,7 +28,7 @@ export default function Profile({profile}) {
                     <td>Email</td>
                     <td>{email}</td>
                 </tr>            
-                <tr className="profile__info--bio">
+                <tr className="profile__table--bio">
                     <td>Bio</td>
                     <td>{bio}</td>
                 </tr>            

@@ -1,0 +1,27 @@
+.page__wrapper {
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+  
+table td {
+    padding: 5px;
+}
+  
+/* color */
+.gray {
+    color: #777777;
+}
+.white {
+    color:#ededed;
+}
+.darkGray {
+    color:#444444;
+}
+.blue {
+    color:#0011bb;
+}
+.purple {
+    color:#6600cc;
+}

@@ -5,14 +5,14 @@
 .profile__info {
   display: flex;
 }
-.profile__info--bio td:first-child {
-  vertical-align: baseline;
-}
 .profile__table {
   max-width: 300px;
 }
-
 .profile__table td:first-child {
   width: 100px;
   font-weight: bold;
+}
+
+.profile__table--bio td:first-child {
+  vertical-align: baseline;
 }
