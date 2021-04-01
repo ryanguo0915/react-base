@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NarBar should render my component 1`] = `
+Array [
+  <div
+    className="profile__wrapper"
+  >
+    <h3
+      className="profile__title"
+    >
+      Profile
+    </h3>
+    <div
+      className="profile__info"
+    >
+      <img
+        alt="avatar"
+        height={200}
+        src="imageMock"
+        width={200}
+      />
+      <table
+        className="profile__table"
+      >
+        <tbody>
+          <tr>
+            <td>
+              First Name
+            </td>
+            <td>
+              First Name
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Last Name
+            </td>
+            <td>
+              Last Name
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Phone
+            </td>
+            <td>
+              Phone
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Email
+            </td>
+            <td>
+              emailMock
+            </td>
+          </tr>
+          <tr
+            className="profile__table--bio"
+          >
+            <td>
+              Bio
+            </td>
+            <td>
+              bioMock
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>,
+]
+`;

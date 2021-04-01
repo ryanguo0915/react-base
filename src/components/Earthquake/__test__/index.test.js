@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Earthquake from '../index';
-describe("MyComponent", () => {
+describe("Earthquake details", () => {
   it("should render my component", () => {
     const props = { 
         features: [{id:'1', properties:{title:'title', mag: 'mag', time: 'time', status: 'status', tsunami: 'tsunami', type: 'type'}}], 

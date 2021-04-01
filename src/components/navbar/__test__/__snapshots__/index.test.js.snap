@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NarBar should render my component 1`] = `
+Array [
+  <div
+    className="navbar"
+  >
+    <Link
+      className="navbar__avatar"
+      to="/"
+    >
+      <img
+        alt="fireSpot"
+        height={30}
+        width={30}
+      />
+    </Link>
+    <h2
+      className="navbar__title"
+    >
+      Title
+    </h2>
+    <span
+      className="navbar__profile"
+    >
+      <Link
+        to="/profile"
+      >
+        Welcome 
+        John
+      </Link>
+    </span>
+  </div>,
+]
+`;

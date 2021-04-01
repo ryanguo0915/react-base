@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MyComponent should have 1 matched perperty and render tables 1`] = `
+exports[`Earthquake table should have 1 matched perperty and render tables 1`] = `
 Array [
   <table>
     <thead>
@@ -35,7 +35,7 @@ Array [
 ]
 `;
 
-exports[`MyComponent should render my component 1`] = `
+exports[`Earthquake table should render my component 1`] = `
 Array [
   <table>
     <thead>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import EarthquakeTable from '../EarthquakeTable';
-describe("MyComponent", () => {
+describe("Earthquake table", () => {
   it("should render my component", () => {
     const props = { 
         features: [{

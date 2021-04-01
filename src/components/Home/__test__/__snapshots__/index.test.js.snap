@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render my component 1`] = `
+Array [
+  <div
+    className="home__wrapper"
+  >
+    <h3
+      className="home__title"
+    >
+      Title
+    </h3>
+    <EarthquakeTable
+      features={
+        Array [
+          Object {
+            "id": "1",
+            "properties": Object {
+              "mag": "mag",
+              "status": "status",
+              "time": "time",
+              "title": "title",
+              "tsunami": "tsunami",
+              "type": "type",
+            },
+          },
+        ]
+      }
+    />
+  </div>,
+]
+`;

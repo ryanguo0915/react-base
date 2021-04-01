@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MyComponent should have 1 matched perperty and render tables 1`] = `
+exports[`Earthquake details should have 1 matched perperty and render tables 1`] = `
 Array [
   <div
     className="earthquake-wrapper"
@@ -65,7 +65,7 @@ Array [
 ]
 `;
 
-exports[`MyComponent should render my component 1`] = `
+exports[`Earthquake details should render my component 1`] = `
 Array [
   <div
     className="earthquake-wrapper"
